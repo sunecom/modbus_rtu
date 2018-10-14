@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-#include "../register/register.h"
-#include "../coil/rm_coil.h"
-#include "../coil/ws_coil.h"
-#include "../coil/wm_coil.h"
-#include "../print/print.h"
-#include "../sender/sender.h"
-#include "../key/key.h"
+#include "register.h"
+#include "rm_coil.h"
+#include "ws_coil.h"
+#include "wm_coil.h"
+#include "print.h"
+#include "sender.h"
+#include "key.h"
 
 int main()
 
