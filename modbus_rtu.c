@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 #include "register.h"
-#include "coil_ws.h"
-#include "coil_wm.h"
+#include "rm_coil.h"
+#include "ws_coil.h"
+#include "wm_coil.h"
 #include "print.h"
 #include "sender.h"
 #include "key.h"
@@ -12,8 +13,9 @@ int main()
 {
    printf("main is starting....\n");
    register_function();
-   coil_ws();
-   coil_wm();
+   rm_coil();
+   ws_coil();
+   wm_coil();
    print_function();
    sender_function();
    key_function();
